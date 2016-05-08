@@ -10,9 +10,9 @@
 
 @import MobileCoreServices;
 @interface KeyboardViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *copiedLabel;
 @property (nonatomic, strong) UIButton *nextKeyboardButton;
 @end
-
 @implementation KeyboardViewController
 
 - (void)updateViewConstraints {
@@ -24,21 +24,63 @@
 
 //Buttons
 
-- (IBAction)nextKeyboardButton:(id)sender {
-     [self.nextKeyboardButton addTarget:self action:@selector(advanceToNextInputMode) forControlEvents:UIControlEventTouchUpInside];
+- (IBAction)NextKeyboardButton:(id)sender {
+        [self.nextKeyboardButton addTarget:self action:@selector(advanceToNextInputMode) forControlEvents:UIControlEventTouchUpInside];
+        
+        [self.view addSubview:self.nextKeyboardButton];
+
 }
 
-- (IBAction)TestGif1:(id)sender {
-    NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"jL0b6u.gif"]];
+
+- (IBAction)copyGifTest:(UIButton *)sender forEvent:(UIEvent *)event {
+    copiedLabel1.text = @"Copying...";
+    copiedLabel1.adjustsFontSizeToFitWidth = YES;
+    copiedLabel1.backgroundColor = [UIColor grayColor];
+    copiedLabel1.minimumScaleFactor = 10.0f/12.0f;
+    copiedLabel1.font = [UIFont fontWithName:@"AvenirNextCondensed-Bold" size:14.0];
+    copiedLabel1.backgroundColor =[UIColor colorWithRed:189 green:195 blue:199 alpha:0.7];
+    copiedLabel1.textColor = [UIColor blackColor];
+    copiedLabel1.textAlignment = NSTextAlignmentCenter;
+    [UIView animateWithDuration:3 animations:^(void) {
+        copiedLabel1.alpha = 0;
+        
+    }];
+    NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif"]];
     UIPasteboard *pasteBoard=[UIPasteboard generalPasteboard];
     [pasteBoard setData:data forPasteboardType:(__bridge NSString *)kUTTypeGIF];
-    [pasteBoard setData:data forPasteboardType:@"com.comuserver.gif"];
 }
 
-- (IBAction)DeleteButton:(id)sender {
 
-    [self.textDocumentProxy deleteBackward];
+- (IBAction)wowGif:(UIButton *)sender {
+    NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"111.gif"]];
+    UIPasteboard *pasteBoard=[UIPasteboard generalPasteboard];
+    [pasteBoard setData:data forPasteboardType:(__bridge NSString *)kUTTypeGIF];
+}
 
+- (IBAction)testingGif:(UIButton *)sender {
+    //Copying Label
+    copiedLabel3.text = @"Copying...";
+    copiedLabel3.adjustsFontSizeToFitWidth = YES;
+    copiedLabel3.backgroundColor = [UIColor grayColor];
+    copiedLabel3.minimumScaleFactor = 10.0f/12.0f;
+    copiedLabel3.clipsToBounds = YES;
+    copiedLabel3.backgroundColor =[UIColor colorWithRed:189 green:195 blue:199 alpha:0.7];
+    copiedLabel3.font = [UIFont fontWithName:@"AvenirNextCondensed-Bold" size:14.0];
+    copiedLabel3.textColor = [UIColor blackColor];
+    copiedLabel3.textAlignment = NSTextAlignmentCenter;
+    [UIView animateWithDuration:3 animations:^(void) {
+        copiedLabel3.alpha = 0;
+        
+    }];
+    NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"https://g.twimg.com/blog/blog/image/Cat-party.gif"]];
+    UIPasteboard *pasteBoard=[UIPasteboard generalPasteboard];
+    [pasteBoard setData:data forPasteboardType:(__bridge NSString *)kUTTypeGIF];
+}
+
+
+
+- (IBAction)DeleteButton:(UIButton *)sender {
+     [self.textDocumentProxy deleteBackward];
 }
 
 
@@ -53,6 +95,8 @@
 //Actual Code
 
 - (void)viewDidLoad {
+    
+
     [super viewDidLoad];
     
     
@@ -94,5 +138,6 @@
     }
     [self.nextKeyboardButton setTitleColor:textColor forState:UIControlStateNormal];
 }
+
 
 @end

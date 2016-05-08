@@ -7,12 +7,22 @@
 //
 
 #import "ViewController.h"
+@import MobileCoreServices;
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+
+- (IBAction)testGif:(id)sender {
+    NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://fc05.deviantart.net/fs37/f/2008/283/a/b/KaleidoCoils_animated__gif_by_1389AD.gif"]];
+    UIPasteboard *pasteBoard=[UIPasteboard generalPasteboard];
+    [pasteBoard setImage:[UIImage imageWithData:data]];
+    
+    
+   // [];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

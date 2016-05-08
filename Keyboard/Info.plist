@@ -22,6 +22,17 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>Required devicd capabilities</key>
+		<array>
+			<string>armv7</string>
+		</array>
+	</dict>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionAttributes</key>
@@ -33,12 +44,12 @@
 			<key>PrimaryLanguage</key>
 			<string>en-US</string>
 			<key>RequestsOpenAccess</key>
-			<false/>
+			<true/>
 		</dict>
-		<key>NSExtensionPointIdentifier</key>
-		<string>com.apple.keyboard-service</string>
 		<key>NSExtensionMainStoryboard</key>
 		<string>KeyboardStoryboard</string>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.keyboard-service</string>
 	</dict>
 </dict>
 </plist>

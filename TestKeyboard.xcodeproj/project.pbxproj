@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		931792AB1CCC257100474793 /* jL0b6u.gif in Resources */ = {isa = PBXBuildFile; fileRef = 931792AA1CCC257100474793 /* jL0b6u.gif */; };
 		9322178D1CCBFF65006B404B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9322178C1CCBFF65006B404B /* main.m */; };
 		932217901CCBFF65006B404B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9322178F1CCBFF65006B404B /* AppDelegate.m */; };
 		932217931CCBFF65006B404B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 932217921CCBFF65006B404B /* ViewController.m */; };
@@ -18,9 +17,12 @@
 		932217B11CCBFF66006B404B /* TestKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 932217B01CCBFF66006B404B /* TestKeyboardUITests.m */; };
 		932217C61CCBFF7C006B404B /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 932217C51CCBFF7C006B404B /* KeyboardViewController.m */; };
 		932217CA1CCBFF7C006B404B /* Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 932217C21CCBFF7C006B404B /* Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		932217D01CCBFF89006B404B /* KeyboardStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932217CF1CCBFF89006B404B /* KeyboardStoryboard.storyboard */; };
 		932217D31CCC01EC006B404B /* globe-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 932217D21CCC01EC006B404B /* globe-button.png */; };
 		932217D51CCC03B4006B404B /* 146143974828990.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 932217D41CCC03B4006B404B /* 146143974828990.jpg */; };
+		9384D7831CD3177000AD9AE6 /* 111.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9384D7821CD3177000AD9AE6 /* 111.gif */; };
+		9384D7FB1CD6F13800AD9AE6 /* 11.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9384D7FA1CD6F13800AD9AE6 /* 11.gif */; };
+		9384D8071CD7F61700AD9AE6 /* KeyboardStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9384D8061CD7F61700AD9AE6 /* KeyboardStoryboard.storyboard */; };
+		938B33DD1CCC74A40057475E /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 938B33DC1CCC74A40057475E /* arrow-right.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,14 +64,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		931792AA1CCC257100474793 /* jL0b6u.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jL0b6u.gif; sourceTree = "<group>"; };
 		932217881CCBFF65006B404B /* TestKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9322178C1CCBFF65006B404B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9322178E1CCBFF65006B404B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9322178F1CCBFF65006B404B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		932217911CCBFF65006B404B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		932217921CCBFF65006B404B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		932217951CCBFF66006B404B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		932217971CCBFF66006B404B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9322179A1CCBFF66006B404B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9322179C1CCBFF66006B404B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,9 +83,13 @@
 		932217C41CCBFF7C006B404B /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
 		932217C51CCBFF7C006B404B /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
 		932217C71CCBFF7C006B404B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		932217CF1CCBFF89006B404B /* KeyboardStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KeyboardStoryboard.storyboard; sourceTree = "<group>"; };
 		932217D21CCC01EC006B404B /* globe-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globe-button.png"; sourceTree = "<group>"; };
 		932217D41CCC03B4006B404B /* 146143974828990.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 146143974828990.jpg; sourceTree = "<group>"; };
+		9384D7821CD3177000AD9AE6 /* 111.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 111.gif; path = ../111.gif; sourceTree = "<group>"; };
+		9384D7FA1CD6F13800AD9AE6 /* 11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 11.gif; sourceTree = "<group>"; };
+		9384D8061CD7F61700AD9AE6 /* KeyboardStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KeyboardStoryboard.storyboard; sourceTree = "<group>"; };
+		9384D8081CD7FB8B00AD9AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		938B33DC1CCC74A40057475E /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,10 +192,11 @@
 		932217C31CCBFF7C006B404B /* Keyboard */ = {
 			isa = PBXGroup;
 			children = (
+				9384D7821CD3177000AD9AE6 /* 111.gif */,
 				932217C41CCBFF7C006B404B /* KeyboardViewController.h */,
 				932217C51CCBFF7C006B404B /* KeyboardViewController.m */,
-				932217CF1CCBFF89006B404B /* KeyboardStoryboard.storyboard */,
 				932217C71CCBFF7C006B404B /* Info.plist */,
+				9384D8061CD7F61700AD9AE6 /* KeyboardStoryboard.storyboard */,
 				932217891CCBFF65006B404B /* Products */,
 			);
 			path = Keyboard;
@@ -200,9 +205,10 @@
 		932217D11CCC019E006B404B /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				938B33DC1CCC74A40057475E /* arrow-right.png */,
 				932217D21CCC01EC006B404B /* globe-button.png */,
 				932217D41CCC03B4006B404B /* 146143974828990.jpg */,
-				931792AA1CCC257100474793 /* jL0b6u.gif */,
+				9384D7FA1CD6F13800AD9AE6 /* 11.gif */,
 			);
 			name = Pictures;
 			sourceTree = "<group>";
@@ -337,9 +343,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9384D7831CD3177000AD9AE6 /* 111.gif in Resources */,
 				9322179B1CCBFF66006B404B /* LaunchScreen.storyboard in Resources */,
-				931792AB1CCC257100474793 /* jL0b6u.gif in Resources */,
+				9384D7FB1CD6F13800AD9AE6 /* 11.gif in Resources */,
 				932217981CCBFF66006B404B /* Assets.xcassets in Resources */,
+				938B33DD1CCC74A40057475E /* arrow-right.png in Resources */,
 				932217961CCBFF66006B404B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,8 +370,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				932217D01CCBFF89006B404B /* KeyboardStoryboard.storyboard in Resources */,
 				932217D51CCC03B4006B404B /* 146143974828990.jpg in Resources */,
+				9384D8071CD7F61700AD9AE6 /* KeyboardStoryboard.storyboard in Resources */,
 				932217D31CCC01EC006B404B /* globe-button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,7 +437,7 @@
 		932217941CCBFF66006B404B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				932217951CCBFF66006B404B /* Base */,
+				9384D8081CD7FB8B00AD9AE6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

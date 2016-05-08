@@ -9,5 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface KeyboardViewController : UIInputViewController
+{
+    
+    
+    UILabel *copiedLabel1;
+    UILabel *copiedLabel2;
+    UILabel *copiedLabel3;
+
+
+    
+}
 
 @end
