@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bSE-eH-LHc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bSE-eH-LHc">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--Keyboard View Controller-->
@@ -26,7 +25,7 @@
                             </button>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3tw-7g-ycM">
                                 <rect key="frame" x="134" y="68" width="107" height="17"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="c8X-Oj-f9T">
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="c8X-Oj-f9T">
                                     <rect key="frame" x="0.0" y="0.0" width="107" height="17"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
@@ -49,7 +48,7 @@
                             </button>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mB6-8E-KWn">
                                 <rect key="frame" x="11" y="68" width="107" height="17"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="9k7-xQ-dyd">
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="9k7-xQ-dyd">
                                     <rect key="frame" x="0.0" y="0.0" width="107" height="17"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
@@ -69,7 +68,7 @@
                             </button>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vaH-Qd-Mmj">
                                 <rect key="frame" x="11" y="156" width="107" height="17"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="wRi-6s-ytx">
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="wRi-6s-ytx">
                                     <rect key="frame" x="0.0" y="0.0" width="107" height="17"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
@@ -89,7 +88,7 @@
                             </button>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qNx-4R-j7r">
                                 <rect key="frame" x="134" y="156" width="107" height="17"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="tdk-fA-9ny">
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="tdk-fA-9ny">
                                     <rect key="frame" x="0.0" y="0.0" width="107" height="17"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
@@ -119,7 +118,7 @@
                             </button>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bcb-KC-9pd">
                                 <rect key="frame" x="254" y="68" width="107" height="17"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="Plu-sn-sQy">
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Plu-sn-sQy">
                                     <rect key="frame" x="0.0" y="0.0" width="107" height="17"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
@@ -146,7 +145,7 @@
                             </button>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S71-fP-7sl">
                                 <rect key="frame" x="254" y="156" width="107" height="17"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="88F-Fl-SNE">
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="88F-Fl-SNE">
                                     <rect key="frame" x="0.0" y="0.0" width="107" height="17"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
@@ -182,7 +181,7 @@
                                 <rect key="frame" x="318" y="186" width="32" height="30"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
-                                    <segue destination="MSV-uJ-2l2" kind="show" id="OP0-8k-sHo"/>
+                                    <segue destination="MSV-uJ-2l2" kind="custom" customClass="SegueFromLeft" customModule="TestKeyboard" id="OP0-8k-sHo"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -234,7 +233,7 @@
                                 <rect key="frame" x="276" y="182" width="34" height="30"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="bSE-eH-LHc" kind="show" id="fYk-Mn-cRK"/>
+                                    <segue destination="bSE-eH-LHc" kind="custom" customClass="SegueFromRight" customModule="TestKeyboard" id="fYk-Mn-cRK"/>
                                 </connections>
                             </button>
                         </subviews>

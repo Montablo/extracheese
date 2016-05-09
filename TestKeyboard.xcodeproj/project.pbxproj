@@ -23,6 +23,8 @@
 		9384D7FB1CD6F13800AD9AE6 /* 11.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9384D7FA1CD6F13800AD9AE6 /* 11.gif */; };
 		9384D8071CD7F61700AD9AE6 /* KeyboardStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9384D8061CD7F61700AD9AE6 /* KeyboardStoryboard.storyboard */; };
 		938B33DD1CCC74A40057475E /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 938B33DC1CCC74A40057475E /* arrow-right.png */; };
+		DDC484DF1CE039CD00655807 /* SegueFromRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC484DE1CE039CD00655807 /* SegueFromRight.swift */; };
+		DDC484E11CE039D400655807 /* SegueFromLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC484E01CE039D400655807 /* SegueFromLeft.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,9 @@
 		9384D8061CD7F61700AD9AE6 /* KeyboardStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KeyboardStoryboard.storyboard; sourceTree = "<group>"; };
 		9384D8081CD7FB8B00AD9AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		938B33DC1CCC74A40057475E /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
+		DDC484DD1CE039CC00655807 /* TestKeyboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestKeyboard-Bridging-Header.h"; sourceTree = "<group>"; };
+		DDC484DE1CE039CD00655807 /* SegueFromRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueFromRight.swift; sourceTree = "<group>"; };
+		DDC484E01CE039D400655807 /* SegueFromLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueFromLeft.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +157,8 @@
 			children = (
 				9322178E1CCBFF65006B404B /* AppDelegate.h */,
 				9322178F1CCBFF65006B404B /* AppDelegate.m */,
+				DDC484DE1CE039CD00655807 /* SegueFromRight.swift */,
+				DDC484E01CE039D400655807 /* SegueFromLeft.swift */,
 				932217911CCBFF65006B404B /* ViewController.h */,
 				932217921CCBFF65006B404B /* ViewController.m */,
 				932217941CCBFF66006B404B /* Main.storyboard */,
@@ -159,6 +166,7 @@
 				932217991CCBFF66006B404B /* LaunchScreen.storyboard */,
 				9322179C1CCBFF66006B404B /* Info.plist */,
 				9322178B1CCBFF65006B404B /* Supporting Files */,
+				DDC484DD1CE039CC00655807 /* TestKeyboard-Bridging-Header.h */,
 			);
 			path = TestKeyboard;
 			sourceTree = "<group>";
@@ -385,6 +393,8 @@
 			files = (
 				932217931CCBFF65006B404B /* ViewController.m in Sources */,
 				932217901CCBFF65006B404B /* AppDelegate.m in Sources */,
+				DDC484DF1CE039CD00655807 /* SegueFromRight.swift in Sources */,
+				DDC484E11CE039D400655807 /* SegueFromLeft.swift in Sources */,
 				9322178D1CCBFF65006B404B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,10 +551,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TestKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JacobSussman.TestKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestKeyboard/TestKeyboard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -552,10 +565,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TestKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JacobSussman.TestKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestKeyboard/TestKeyboard-Bridging-Header.h";
 			};
 			name = Release;
 		};
